@@ -1,0 +1,29 @@
+{
+    "id": "b4c67721044b438f995caaf42eee212a",
+    "sending_user": {
+        "id": "34633b1980ae4fdba52d88d41e79d3b7",
+        "nickname": "ground_1",
+        "role": "PARTICIPANT",
+        "team": "ground"
+    },
+    "receiving_user": {
+        "id": "d32c9697d9e84a22a7b72616616300bc",
+        "nickname": "air_1",
+        "team": "air",
+        "role": "PARTICIPANT",
+        "alias": "air_1"
+    },
+    "event_type": "DeploymentEvent",
+    "experiment_session_id": "2421588eaa33485bbe8af23e39dfed38",
+    "simulation_round_id": "8848008c8ac440a2b483809a1ba8df9a",
+    "data": {
+        "region_id": "Nemuro",
+        "remaining_shared_resources": {
+            "fuel": 4981
+        },
+        "required_shared_resources": {
+            "fuel": 19
+        },
+        "resource_id": "06"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "id": "4c4916ba79964d51a761212f30745e69",
+    "sending_user": {
+        "id": "2d0bfd0268994737b06102c23a0c9b40",
+        "nickname": "Andy",
+        "role": "ADMIN"
+    },
+    "receiving_user": {
+        "id": "3820ae794f1840499dcb4709195b5128",
+        "nickname": "air_2",
+        "team": "air",
+        "role": "PARTICIPANT",
+        "alias": "air_2"
+    },
+    "event_type": "DisasterEvent",
+    "experiment_session_id": "2421588eaa33485bbe8af23e39dfed38",
+    "simulation_round_id": "8848008c8ac440a2b483809a1ba8df9a",
+    "data": {
+        "description": "Critical communication infrastructure is down.",
+        "disaster_resolution": {
+            "resources_used": [
+                {
+                    "available": true,
+                    "region_id": "Tokachi",
+                    "resource_id": "03",
+                    "resource_name": "Helicopter C",
+                    "resource_type": "helicopter",
+                    "team": "air"
+                }
+            ],
+            "teams": [
+                "air"
+            ]
+        },
+        "name": "Malfunctioning Communication Towers",
+        "region_id": "Tokachi",
+        "required_aid_percentage": "0.5",
+        "resolution_resolved_at": "2025-06-05T21:13:51.843Z",
+        "resolution_start_at": "2025-06-05T21:13:32.356Z",
+        "resolution_status": "resolved",
+        "resolution_time": 15,
+        "reward_money": "0.25",
+        "solutions": [
+            {
+                "method": "Identify alternative communication hubs",
+                "required_capabilities": [
+                    "intelligence"
+                ]
+            }
+        ],
+        "threat_level": 0
+    }
+}
