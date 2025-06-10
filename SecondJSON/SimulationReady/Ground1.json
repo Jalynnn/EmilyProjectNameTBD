@@ -1,0 +1,23 @@
+{
+    "id": "01995d0ff9f94476a2020db0a08d0b3a",
+    "sending_user": {
+        "id": "2d0bfd0268994737b06102c23a0c9b40",
+        "nickname": "Andy",
+        "role": "ADMIN"
+    },
+    "receiving_user": {
+        "id": "19b944792d2b432987cb901fa65dc06c",
+        "nickname": "ground_1",
+        "team": "ground",
+        "role": "PARTICIPANT",
+        "alias": "ground_1"
+    },
+    "event_type": "SimulationStatusEvent",
+    "experiment_session_id": "d9d9e7592cb5497a9bb01cbb972564e5",
+    "simulation_round_id": null,
+    "data": {
+        "duration_seconds": 180,
+        "simulation_round_id": "e8d47fac83904ebfa555919076bb1d92",
+        "simulation_status": "ready"
+    }
+}

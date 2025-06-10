@@ -1,0 +1,63 @@
+{
+    "id": "ef38a60179de4feb93fff73ac7bc8887",
+    "sending_user": {
+        "id": "2d0bfd0268994737b06102c23a0c9b40",
+        "nickname": "Andy",
+        "role": "ADMIN"
+    },
+    "receiving_user": {
+        "id": "e62b38f102b4470f9bb573bda93bed21",
+        "nickname": "air_1",
+        "team": "air",
+        "role": "PARTICIPANT",
+        "alias": "air_1"
+    },
+    "event_type": "DisasterEvent",
+    "experiment_session_id": "d9d9e7592cb5497a9bb01cbb972564e5",
+    "simulation_round_id": "e8d47fac83904ebfa555919076bb1d92",
+    "data": {
+        "description": "A bridge collapse has stranded multiple civilians and needs urgent multi-team response",
+        "disaster_resolution": {
+            "resources_used": [
+                {
+                    "available": false,
+                    "region_id": "Rumoi",
+                    "resource_id": "05",
+                    "resource_name": "Drone B",
+                    "resource_type": "drone",
+                    "team": "air"
+                },
+                {
+                    "available": false,
+                    "region_id": "Rumoi",
+                    "resource_id": "10",
+                    "resource_name": "Ambulance B",
+                    "resource_type": "ambulance",
+                    "team": "ground"
+                }
+            ],
+            "teams": [
+                "ground",
+                "air"
+            ]
+        },
+        "name": "Collapsed Bridge",
+        "region_id": "Rumoi",
+        "required_aid_percentage": "0.5",
+        "resolution_resolved_at": null,
+        "resolution_start_at": "2025-06-10T05:10:14.857Z",
+        "resolution_status": "in_progress",
+        "resolution_time": 60,
+        "reward_money": "1",
+        "solutions": [
+            {
+                "method": "Evacuate stranded civilians and provide intel support",
+                "required_capabilities": [
+                    "evacuation",
+                    "intelligence"
+                ]
+            }
+        ],
+        "threat_level": 3
+    }
+}

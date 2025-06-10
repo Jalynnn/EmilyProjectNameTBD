@@ -1,0 +1,38 @@
+{
+    "id": "133d94f5bcf9470ba182ac13ac02f4b6",
+    "sending_user": {
+        "id": "2d0bfd0268994737b06102c23a0c9b40",
+        "nickname": "Andy",
+        "role": "ADMIN"
+    },
+    "receiving_user": {
+        "id": "e62b38f102b4470f9bb573bda93bed21",
+        "nickname": "air_1",
+        "team": "air",
+        "role": "PARTICIPANT",
+        "alias": "air_1"
+    },
+    "event_type": "DisasterEvent",
+    "experiment_session_id": "d9d9e7592cb5497a9bb01cbb972564e5",
+    "simulation_round_id": "e8d47fac83904ebfa555919076bb1d92",
+    "data": {
+        "description": "A quick delivery of aid packages is needed",
+        "name": "Deliver Supplies",
+        "region_id": "Nemuro",
+        "required_aid_percentage": "0.3",
+        "resolution_resolved_at": null,
+        "resolution_start_at": null,
+        "resolution_status": "not_started",
+        "resolution_time": 20,
+        "reward_money": "0.25",
+        "solutions": [
+            {
+                "method": "Deliver supplies",
+                "required_capabilities": [
+                    "supply_delivery"
+                ]
+            }
+        ],
+        "threat_level": 1
+    }
+}

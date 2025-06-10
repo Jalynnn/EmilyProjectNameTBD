@@ -1,0 +1,39 @@
+{
+    "id": "dba9166365964793a0f2ddfa510e3063",
+    "sending_user": {
+        "id": "2d0bfd0268994737b06102c23a0c9b40",
+        "nickname": "Andy",
+        "role": "ADMIN"
+    },
+    "receiving_user": {
+        "id": "19b944792d2b432987cb901fa65dc06c",
+        "nickname": "ground_1",
+        "team": "ground",
+        "role": "PARTICIPANT",
+        "alias": "ground_1"
+    },
+    "event_type": "DisasterEvent",
+    "experiment_session_id": "d9d9e7592cb5497a9bb01cbb972564e5",
+    "simulation_round_id": "e8d47fac83904ebfa555919076bb1d92",
+    "data": {
+        "description": "Flooding requires both scouting and evacuation",
+        "name": "Storm Evacuation",
+        "region_id": "Iburi",
+        "required_aid_percentage": "0.4",
+        "resolution_resolved_at": null,
+        "resolution_start_at": null,
+        "resolution_status": "not_started",
+        "resolution_time": 30,
+        "reward_money": "0.5",
+        "solutions": [
+            {
+                "method": "Assess damage and evacuate",
+                "required_capabilities": [
+                    "intelligence",
+                    "evacuation"
+                ]
+            }
+        ],
+        "threat_level": 2
+    }
+}

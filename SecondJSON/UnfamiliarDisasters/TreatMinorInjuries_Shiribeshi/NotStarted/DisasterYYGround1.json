@@ -1,0 +1,38 @@
+{
+    "id": "317e385694b64a0c92d9ff23ebbb28ed",
+    "sending_user": {
+        "id": "2d0bfd0268994737b06102c23a0c9b40",
+        "nickname": "Andy",
+        "role": "ADMIN"
+    },
+    "receiving_user": {
+        "id": "19b944792d2b432987cb901fa65dc06c",
+        "nickname": "ground_1",
+        "team": "ground",
+        "role": "PARTICIPANT",
+        "alias": "ground_1"
+    },
+    "event_type": "DisasterEvent",
+    "experiment_session_id": "d9d9e7592cb5497a9bb01cbb972564e5",
+    "simulation_round_id": "e8d47fac83904ebfa555919076bb1d92",
+    "data": {
+        "description": "Residents at a shelter require minor treatment",
+        "name": "Treat Minor Injuries",
+        "region_id": "Shiribeshi",
+        "required_aid_percentage": "0.3",
+        "resolution_resolved_at": null,
+        "resolution_start_at": null,
+        "resolution_status": "not_started",
+        "resolution_time": 20,
+        "reward_money": "0.25",
+        "solutions": [
+            {
+                "method": "Treat minor injuries",
+                "required_capabilities": [
+                    "treatment"
+                ]
+            }
+        ],
+        "threat_level": 1
+    }
+}

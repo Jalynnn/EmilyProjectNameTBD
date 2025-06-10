@@ -1,0 +1,53 @@
+{
+    "id": "b1237a14ac214270b199f44111636afd",
+    "sending_user": {
+        "id": "2d0bfd0268994737b06102c23a0c9b40",
+        "nickname": "Andy",
+        "role": "ADMIN"
+    },
+    "receiving_user": {
+        "id": "d14e687e0e2341eaa4a1e7f54d9a0ba1",
+        "nickname": "air_2",
+        "team": "air",
+        "role": "PARTICIPANT",
+        "alias": "air_2"
+    },
+    "event_type": "DisasterEvent",
+    "experiment_session_id": "d9d9e7592cb5497a9bb01cbb972564e5",
+    "simulation_round_id": "e8d47fac83904ebfa555919076bb1d92",
+    "data": {
+        "description": "Minor injuries reported in isolated area",
+        "disaster_resolution": {
+            "resources_used": [
+                {
+                    "available": false,
+                    "region_id": "Kamikawa",
+                    "resource_id": "10",
+                    "resource_name": "Ambulance B",
+                    "resource_type": "ambulance",
+                    "team": "ground"
+                }
+            ],
+            "teams": [
+                "ground"
+            ]
+        },
+        "name": "Treat Civilians",
+        "region_id": "Kamikawa",
+        "required_aid_percentage": "0.3",
+        "resolution_resolved_at": null,
+        "resolution_start_at": "2025-06-10T05:09:36.243Z",
+        "resolution_status": "in_progress",
+        "resolution_time": 20,
+        "reward_money": "0.25",
+        "solutions": [
+            {
+                "method": "Treat isolated civilians",
+                "required_capabilities": [
+                    "treatment"
+                ]
+            }
+        ],
+        "threat_level": 1
+    }
+}

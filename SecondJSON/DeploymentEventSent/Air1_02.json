@@ -1,0 +1,21 @@
+{
+    "id": null,
+    "sending_user": {
+        "id": "e62b38f102b4470f9bb573bda93bed21",
+        "nickname": "air_1",
+        "team": "air",
+        "role": "PARTICIPANT",
+        "alias": "air_1"
+    },
+    "receiving_user": null,
+    "event_type": "DeploymentEvent",
+    "experiment_session_id": "d9d9e7592cb5497a9bb01cbb972564e5",
+    "simulation_round_id": "e8d47fac83904ebfa555919076bb1d92",
+    "data": {
+        "resource_id": "02",
+        "region_id": "Nemuro",
+        "required_shared_resources": {
+            "fuel": 39.77555431605878
+        }
+    }
+}

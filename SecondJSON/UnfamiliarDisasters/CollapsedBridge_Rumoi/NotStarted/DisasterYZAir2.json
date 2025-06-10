@@ -1,0 +1,39 @@
+{
+    "id": "be88b04aa757485aa3b9e7c954b951d7",
+    "sending_user": {
+        "id": "2d0bfd0268994737b06102c23a0c9b40",
+        "nickname": "Andy",
+        "role": "ADMIN"
+    },
+    "receiving_user": {
+        "id": "d14e687e0e2341eaa4a1e7f54d9a0ba1",
+        "nickname": "air_2",
+        "team": "air",
+        "role": "PARTICIPANT",
+        "alias": "air_2"
+    },
+    "event_type": "DisasterEvent",
+    "experiment_session_id": "d9d9e7592cb5497a9bb01cbb972564e5",
+    "simulation_round_id": "e8d47fac83904ebfa555919076bb1d92",
+    "data": {
+        "description": "A bridge collapse has stranded multiple civilians and needs urgent multi-team response",
+        "name": "Collapsed Bridge",
+        "region_id": "Rumoi",
+        "required_aid_percentage": "0.5",
+        "resolution_resolved_at": null,
+        "resolution_start_at": null,
+        "resolution_status": "not_started",
+        "resolution_time": 60,
+        "reward_money": "1",
+        "solutions": [
+            {
+                "method": "Evacuate stranded civilians and provide intel support",
+                "required_capabilities": [
+                    "evacuation",
+                    "intelligence"
+                ]
+            }
+        ],
+        "threat_level": 3
+    }
+}
