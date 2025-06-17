@@ -7,10 +7,15 @@ Python code for receiving WebSocket Messages &amp; Sending LSL Events!
 # LSL-Bridge
 
 Goal Completions:
+
 Goal 1: Start of a disaster (resolution_status = in_progress)
+
 Goal 2: End of a disaster (resolution_status = resolved)
+
 Goal 3: Which resources moved by which participants
+
 Goal 4: Start of a round
+
 Goal 5: End of a round
 
 Additional Completions:
