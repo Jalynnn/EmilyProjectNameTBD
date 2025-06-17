@@ -1,0 +1,70 @@
+{
+    "id": "6d9bf521b5c3405a8649f1c8edc07c3c",
+    "sending_user": {
+        "id": "2d0bfd0268994737b06102c23a0c9b40",
+        "nickname": "Andy",
+        "role": "ADMIN"
+    },
+    "receiving_user": {
+        "id": "e62b38f102b4470f9bb573bda93bed21",
+        "nickname": "air_1",
+        "team": "air",
+        "role": "PARTICIPANT",
+        "alias": "air_1"
+    },
+    "event_type": "DisasterEvent",
+    "experiment_session_id": "d9d9e7592cb5497a9bb01cbb972564e5",
+    "simulation_round_id": "ff8835a2b9544c24849e59ddbbaf6802",
+    "data": {
+        "description": "A tsunami has devastated coastal areas, leaving many stranded and in need of evacuation.",
+        "disaster_resolution": {
+            "resources_used": [
+                {
+                    "available": false,
+                    "region_id": "Nemuro",
+                    "resource_id": "09",
+                    "resource_name": "Ambulance A",
+                    "resource_type": "ambulance",
+                    "team": "ground"
+                },
+                {
+                    "available": false,
+                    "region_id": "Nemuro",
+                    "resource_id": "02",
+                    "resource_name": "Helicopter B",
+                    "resource_type": "helicopter",
+                    "team": "air"
+                }
+            ],
+            "teams": [
+                "ground",
+                "air"
+            ]
+        },
+        "name": "Tsunami Aftermath",
+        "region_id": "Nemuro",
+        "required_aid_percentage": "0.6",
+        "resolution_resolved_at": null,
+        "resolution_start_at": "2025-06-10T05:36:58.230Z",
+        "resolution_status": "in_progress",
+        "resolution_time": 60,
+        "reward_money": "1",
+        "solutions": [
+            {
+                "method": "Evacuate stranded civilians",
+                "required_capabilities": [
+                    "intelligence",
+                    "evacuation"
+                ]
+            },
+            {
+                "method": "Assess injuries and deliver critical care based on intel",
+                "required_capabilities": [
+                    "treatment",
+                    "intelligence"
+                ]
+            }
+        ],
+        "threat_level": 3
+    }
+}
